@@ -1,0 +1,90 @@
+<!-- Intro to HTML & CSS I
+
+  Module Project Overview
+
+    You will build a website to display the bio of your favorite programmer, artist, etc.
+
+    In order to do this, you will create an `index.html` file and scaffold the document
+    with the elements shared by all HTML documents:
+
+    - doctype declaration
+    - html element
+    - head, containing a title and an optional style tag
+    - body, containing the markup that renders to the screen
+
+  Requirements
+
+    Review this article: https://www.w3schools.com/html/html5_semantic_elements.asp
+
+    Create an `index.html` file for your site, or use this same file.
+
+    For your site, you will make use of at least the following semantic elements:
+
+    - header (to contain the main heading of the site, and the nav)
+    - nav (to contain some links to navigate to the different sections of this document)
+    - section (each holding at least a heading and a paragraph)
+    - aside (containing an img and a caption)
+    - footer (containing a contact form)
+    - form (containing at least two inputs with their labels)
+
+    See an example of a finished site: https://bloominstituteoftechnology.github.io/img/anita-borg-bio-website.png
+
+    The example above is quite simple, but you can make your site as fancy as you'd like. -->
+
+    <!DOCTYPE html>
+  
+    <head>
+      <title>Nayvadius DeMun Wilburn</title>
+    </head>
+    <body> 
+      <header>
+        <h1>Nayvadius Demun Wilburn</h1>
+        <nav>
+          <a href="#overview">Overview</a>
+          <a href="#career">Career</a>
+          <a href="#awards">Awards</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+      <main>
+        <section id="overview">
+          <h2>Overview</h2>
+          <aside>
+            <img style="max-width: 200px;" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*03YH5I-gWh5NB2EcfzRlug.jpeg" alt="Nayvadius Wilburn Photo">
+          </aside>
+          <p>Nayvadius DeMun Cash (né Wilburn; born November 20, 1983), known professionally as Future, is an American rapper and singer. Known for his mumble-styled vocals and prolific output, Future is considered a pioneer of the use of Auto-Tuned melodies in trap music. Due to the sustained popularity of this musical style, he is commonly regarded as one of the most influential rappers of his generation.
+          </p>
+        </section>
+        <section id="career">
+          <h2>Career</h2>
+          <p>During 2010 and 2011, he released three mixtapes including True Story, Dirty Sprite, and 1000. These releases got Future a record deal with Epic Records and released another mixtape titled Streetz Calling. At the same time, he started working with Gucci Mane on their collaborative album called Free Bricks.
+
+            In 2012, he released his debut album titled Pluto and a song Magic which was the first to climb the top 100 positions in the Billboard chart. In 2014, he released his second album titled Honest, which featured artists like Drake, Rihanna, Kanye West, Ciara, and others.
+            
+            In 2017, he released his self-titled album and released another album titled Hndrxx a week later. Both of these albums went number one, something that has never been done before.</p>
+        </section>
+        <section id="awards">
+          <h2>Awards</h2>
+          <p>
+            <ul>Grammy Award for Best Rap Performance</ul>
+             <ul>BET Hip-Hop Awards</ul>
+             <ul>BET Awards</ul>
+             <ul>Grammy Awards</ul>
+          </p>
+        </section>. 
+        <section id="contact">
+          <h2>Contact the Webmaster</h2>
+          <p></p>
+          <form action="">
+            <label> email
+              <input type="email" placeholder="type email">
+            </label>
+            <label> message
+              <input type="text" placeholder="type a message">
+            </label>
+          </form>
+        </section>
+      </main>
+      <footer></footer>
+    </body>
+    </html>
